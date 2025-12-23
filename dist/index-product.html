@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8" />
+    <title>Skywave - IT Solution & Technology TailwindCSS 4 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Skywave - IT Solution & Technology TailwindCSS 4 Template" name="description">
+    <meta content="MarkeyThemes" name="author">
+    <link rel="shortcut icon" href="/assets/favicon-CFk9qfOV.ico" />
+
+  <script type="module" crossorigin src="/assets/app-Cg3ZKO-o.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/app-DCLepV3r.css">
+</head>
+
+<body>
+
+    <header class="bg-transparent fixed top-0 w-full z-20 transition-all [.active]:bg-white [.active]:shadow active" id="navbar-sticky">
+        <div class="container">
+            <div class="flex items-center lg:justify-start justify-between lg:py-5 py-2.5">
+                <div class="text-lg font-bold">
+                    <a href="preview.html">
+                        <img src="/assets/logo-dark-CrnqOdrd.png" alt="Logo" class="h-7.5">
+                    </a>
+                </div>
+    
+                <div class="lg:flex hidden justify-center ms-auto">
+                    <a href="#home" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Home</a>
+    
+                    <a href="#feature" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Feature</a>
+    
+                    <a href="#services" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Services</a>
+    
+                    <a href="#reviews" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Reviews</a>
+    
+                    <a href="#team" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Team</a>
+    
+                    <a href="#pricing" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Pricing</a>
+                        
+                    <a href="#contact" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Contact</a>
+                </div>
+    
+                <div class="flex flex-row justify-center items-center md:gap-4 gap-2.5">
+                    <div class="md:flex hidden justify-end">
+                        <button
+                            class="py-1.75 px-4.5 ms-6 bg-primary text-sm text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">
+                            Create Account
+                        </button>
+                    </div>
+    
+                    <div class="flex lg:hidden">
+                        <button type="button"
+                            class="text-black focus:border-3 inline-flex justify-center items-center focus:rounded-md md:h-9 w-12.5 size-11 p-3.5 font-medium transition-all duration-300"
+                            aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-offcanvas-MobileMenu"
+                            data-hs-overlay="#hs-offcanvas-MobileMenu">
+                            <span class="iconify tabler--menu text-2xl size-6"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu (Offcanvas) -->
+    <div id="hs-offcanvas-MobileMenu"
+        class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-80 bg-white border-e border-gray-200"
+        role="dialog" tabindex="-1" aria-labelledby="hs-offcanvas-MobileMenu-label">
+        <div class="flex justify-center items-center py-3 px-4 border-b border-gray-200">
+            <a href="index.html">
+                <img src="/assets/logo-dark-CrnqOdrd.png" alt="" class="h-7.5">
+            </a>
+        </div>
+    
+        <div class="p-4 overflow-y-scroll h-full">
+            <a href="#home"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Home</a>
+    
+            <a href="#pricing"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Pricing</a>
+    
+            <a href="#services"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Services</a>
+    
+            <a href="#reviews"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Reviews</a>
+    
+            <a href="#team" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Team</a>
+    
+            <a href="#pricing"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Pricing</a>
+    
+            <a href="#contact"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Contact</a>
+        </div>
+    </div>
+    <!-- Hero Section  -->
+    <section id="home" class="pt-40 pb-37.5 bg-[url('../images/background/1.png')] size-full bg-bg-color">
+        <div class="container">
+            <div class="grid lg:grid-cols-12 gap-6">
+                <div class="lg:col-span-7">
+                    <h5 class="font-bold mb-4 text-sm tracking-4 uppercase text-white">Discover Today</h5>
+                    <h1 class="mb-2 lg:text-6xl text-4xl text-white">A digital studio designing captivating experiences.
+                    </h1>
+                    <p class="mt-6 mb-4 text-white">A premier web design company specializing in creating visually
+                        stunning and
+                        highly engaging online experiences.</p>
+
+                    <a href="#" class="mt-12 flex items-center">
+                        <button type="button" class="size-9 flex bg-white justify-center items-center rounded-full me-2"
+                            aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-vertically-centered-modal"
+                            data-hs-overlay="#hs-vertically-centered-modal">
+                            <i class="iconify tabler--player-play-filled bg-bg-color"></i>
+
+                        </button>
+                        <span class="text-white">Watch The Video!</span>
+
+                        <div id="hs-vertically-centered-modal"
+                            class="hs-overlay hidden size-full fixed top-0 start-0 z-80 overflow-x-hidden overflow-y-auto pointer-events-none"
+                            role="dialog" tabindex="-1" aria-labelledby="hs-vertically-centered-modal-label">
+                            <div
+                                class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto min-h-[calc(100%-56px)] flex items-center">
+                                <div
+                                    class="w-full flex flex-col bg-white border border-gray-200 shadow-2xs rounded-xl pointer-events-auto dark:bg-neutral-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                                    <video class="w-full h-auto rounded-xl shadow-lg" controls autoplay muted loop>
+                                        <source src="/assets/1-Uija7kCH.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="lg:col-span-5">
+                    <img src="/assets/1-CGVTTK8P.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section  -->
+    <section class="py-22.5">
+        <div class="container">
+            <div class="grid lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-1">
+                    <div class="mb-6 flex items-center">
+                        <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                            <i class="iconify tabler--info-circle text-white size-4.5 "></i>
+                        </div>
+                        <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                        <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                            About Us
+                        </div>
+                    </div>
+
+                    <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl">Amazing Platform</h3>
+                    <p class="text-secondary">Amazing Platform offers cutting-edge solutions to elevate your digital
+                        presence.</p>
+
+                    <div class="grid grid-cols-4 mt-12 gap-6">
+                        <div class="col-span-1">
+                            <h4 class="mb-2 md:text-2xl text-2.1xl">5+</h4>
+                            <p class="text-secondary">Years</p>
+                        </div>
+
+                        <div class="col-span-1">
+                            <h4 class="mb-2 md:text-2xl text-2.1xl">70+</h4>
+                            <p class="text-secondary">Client</p>
+                        </div>
+
+                        <div class="col-span-1">
+                            <h4 class="mb-2 md:text-2xl text-2.1xl">150+</h4>
+                            <p class="text-secondary">Design</p>
+                        </div>
+
+                        <div class="col-span-1">
+                            <h4 class="mb-2 md:text-2xl text-2.1xl">18+</h4>
+                            <p class="text-secondary">Teams</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 flex gap-4 items-center">
+                        <div>
+                            <img src="/assets/1-DHK6cCCz.jpg" alt="" class="rounded-full size-10">
+                        </div>
+
+                        <div>
+                            <p class="text-secondary">Malikk Ganteng</p>
+                            <p class="text-sm text-secondary">Data Analyst @Skywave</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2">
+                    <div class="grid lg:grid-cols-2 gap-4 ">
+
+                        <!-- About Item 1  -->
+                        <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-sm rounded-bl-sm rounded-br-4xl">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--brand-codepen text-primary size-6"></i>
+                                </div>
+                                <p class="text-lg">Strategy Innovations</p>
+                            </div>
+                            <p class="text-secondary">We help you define a clear vision and roadmap for your business.
+                                Our comprehensive strategic planning services</p>
+                        </div>
+
+                        <!-- About Item 2  -->
+                        <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-sm rounded-bl-4xl rounded-br-sm">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--hours-24 text-primary size-6"></i>
+                                </div>
+                                <p class="text-lg">Personalized Solutions</p>
+                            </div>
+                            <p class="text-secondary">Our team of seasoned professionals provides strategic advice and
+                                practical insights, helping you make informed.</p>
+                        </div>
+
+                        <!-- About Item 3 -->
+                        <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-4xl rounded-bl-sm rounded-br-sm">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--device-desktop text-primary size-6"></i>
+                                </div>
+                                <p class="text-lg">Digital Design</p>
+                            </div>
+                            <p class="text-secondary">We create responsive and user-friendly websites that provide an
+                                exceptional online experience, tailored to your brand.</p>
+                        </div>
+
+                        <!-- About Item 4  -->
+                        <div class="p-4 bg-body-bg rounded-tl-4xl rounded-tr-sm rounded-bl-sm rounded-br-sm">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--file-description text-primary size-6"></i>
+                                </div>
+                                <p class="text-lg">Subscription </p>
+                            </div>
+                            <p class="text-secondary">Make your money analysis faster and create your own way of saving
+                                on payments negotiate bills and subscriptions</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 text-end">
+                        <button
+                            class="py-3 px-6.25  bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">Show
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Us Section  -->
+    <section class="py-15">
+        <div class="container">
+
+            <div class="grid lg:grid-cols-2 gap-18 items-center">
+                <div class="lg:col-span-1">
+                    <img src="/assets/1-WRQKq1kW.png" alt="">
+                </div>
+
+                <div class="lg:col-span-1">
+                    <div class="mb-6 flex items-center">
+                        <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                            <i class="iconify tabler--brand-react text-white size-4.5"></i>
+                        </div>
+                        <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                        <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                            Creative Us
+                        </div>
+                    </div>
+
+                    <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl">Unleashing Your Imagination</h3>
+                    <p class="text-secondary mb-4">At Creative Us, we believe in the power of imagination and
+                        creativity. Our mission is to help you bring your ideas to life through innovative design and
+                        artistic expression.</p>
+
+                    <div class="grid grid-cols-3 my-6 gap-6">
+                        <div class="col-span-1">
+                            <h4 class="mb-2 md:text-2xl text-2.1xl">20+</h4>
+                            <p class="text-secondary">Working Task</p>
+                        </div>
+
+                        <div class="col-span-1">
+                            <h4 class="mb-2 md:text-2xl text-2.1xl">70+</h4>
+                            <p class="text-secondary">Country Reached</p>
+                        </div>
+
+                        <div class="col-span-1">
+                            <h4 class="mb-2 md:text-2xl text-2.1xl flex justigy-center items-center gap-1"><i
+                                    class="iconify tabler--star-filled text-yellow size-6"></i>4.5</h4>
+                            <p class="text-secondary">Best Rating</p>
+                        </div>
+                    </div>
+
+                    <p class="text-secondary mb-4"><b class="text-primary">Comments</b> : This perfectly encapsulates
+                        the spirit of Creative Us! Embracing the boundless potential of creativity</p>
+
+                    <div class="flex gap-4 mt-6">
+                        <button
+                            class="py-3 px-6.25  bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">Show
+                            More</button>
+
+                        <button
+                            class="py-3 px-6.25  bg-body-color text-white rounded-full border-b-3 border-b-blue-100 hover:bg-blue-200 hover:border-b-blue-300 transition-all duration-300">Contact
+                            Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section  -->
+    <section id="feature" class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--brand-react text-white size-4.5 "></i>
+                    </div>
+
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Creative Us
+                    </div>
+                </div>
+                <h3 class="mb-2 text-2.6xl text-center">Product Key Features</h3>
+            </div>
+
+            <!-- Feature Contant  -->
+            <div class="mt-4">
+                <div class="grid lg:grid-cols-3 gap-4">
+                    <div class="col-span-1">
+                        <h5 class="text-xl mb-2 flex gap-1 justify-end items-center"> <i
+                                class="iconify tabler--sun-high text-primary size-5"></i> High Performance :</h5>
+
+                        <div class="mt-12 flex gap-1.75">
+                            <div class="lg:text-end">
+                                <h6 class="mb-2">Exceptional Speed</h6>
+                                <p class="mb-4 text-secondary">Engineered to operate at top speeds, ensuring quick and
+                                    efficient execution of tasks.</p>
+                            </div>
+
+                            <div>
+                                <div class="size-9 bg-orange rounded-md flex justify-center items-center">
+                                    <i class="iconify tabler--number-1 text-primary size-5"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="my-4 flex gap-1.75 ">
+                            <div class="lg:text-end">
+                                <h6 class="mb-2">Optimized Efficiency</h6>
+                                <p class="mb-4 text-secondary">Designed to maximize productivity and minimize downtime,
+                                    providing a smooth and effective user experience.</p>
+                            </div>
+                            <div>
+                                <div class="size-9 bg-orange rounded-md flex justify-center items-center">
+                                    <i class="iconify tabler--number-2 text-primary size-5"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="my-4 flex gap-1.75">
+                            <div class="lg:text-end">
+                                <h6 class="mb-2">Reliable Operation</h6>
+                                <p class="mb-4 text-secondary">Built for consistent and dependable performance, even
+                                    under demanding conditions or high workloads.</p>
+                            </div>
+                            <div>
+                                <div class="size-9 bg-orange rounded-md flex justify-center items-center">
+                                    <i class="iconify tabler--number-3 text-primary size-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-span-1">
+                        <img src="/assets/1-BUPzEoCu.svg" alt="">
+                        <div class="mt-12 text-center">
+                            <button
+                                class="py-3 px-6.25  bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">View
+                                All Features
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Feature Contant  -->
+                    <div class="col-span-1">
+                        <h5 class="text-xl mb-2 flex gap-1 items-center"> <i
+                                class="iconify tabler--layout text-primary size-5"></i> Customizable Options :</h5>
+
+                        <div class="mt-12 flex gap-1.75">
+                            <div>
+                                <div class="size-9 bg-orange rounded-md flex justify-center items-center">
+                                    <i class="iconify tabler--number-1 text-primary size-5"></i>
+                                </div>
+                            </div>
+                            <div class="">
+                                <h6 class="mb-2">Exceptional Speed</h6>
+                                <p class="mb-4 text-secondary">Engineered to operate at top speeds, ensuring quick and
+                                    efficient execution of tasks.</p>
+                            </div>
+                        </div>
+
+                        <div class="my-4 flex gap-1.75">
+                            <div>
+                                <div class="size-9 bg-orange rounded-md flex justify-center items-center">
+                                    <i class="iconify tabler--number-2 text-primary size-5"></i>
+                                </div>
+                            </div>
+                            <div class="">
+                                <h6 class="mb-2">Adaptable Functionality</h6>
+                                <p class="mb-4 text-secondary">Easily add or remove components and integrations to fit
+                                    your unique requirements.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="my-4 flex gap-1.75">
+                            <div>
+                                <div class="size-9 bg-orange rounded-md flex justify-center items-center">
+                                    <i class="iconify tabler--number-3 text-primary size-5"></i>
+                                </div>
+                            </div>
+                            <div class="">
+                                <h6 class="mb-2">User-Specific Profiles</h6>
+                                <p class="mb-4 text-secondary">Create and manage different profiles to accommodate
+                                    various user preferences and needs.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 mt-12 gap-18">
+                <div class="col-span-1">
+                    <img src="/assets/2-DcXGhnGK.png" alt="">
+                </div>
+
+                <div class="col-span-1">
+                    <div class="mb-6 size-9 rounded-md bg-primary flex justify-center items-center">
+                        <i class="iconify tabler--mood-happy text-white size-5"></i>
+                    </div>
+                    <h3 class="lfg:text-2.8xl text-2.5xl mb-2">The Best Features In Skywave That Make You Happy</h3>
+                    <p class="mb-4 text-secondary">Skywave offers a range of features designed to enhance your
+                        experience and bring you joy. Its sleek and intuitive interface ensures effortless navigation
+                    </p>
+                    <div class="flex gap-4 flex-col mb-4">
+                        <div class="gap-1.75 flex">
+                            <div>
+                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="text-dark"> Exceptional Speed</h6>
+                            </div>
+                        </div>
+                        <div class="gap-1.75 flex">
+                            <div>
+                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="text-dark"> Ongoing Enhancements</h6>
+                            </div>
+                        </div>
+                        <div class="gap-1.75 flex">
+                            <div>
+                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="text-dark"> Seamless Integration</h6>
+                            </div>
+                        </div>
+                        <div class="gap-1.75 flex">
+                            <div>
+                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="text-dark"> Security Features</h6>
+                            </div>
+                        </div>
+                        <div class="gap-1.75 flex">
+                            <div>
+                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="text-dark"> Regular Updates</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="underline text-primary flex items-center gap-0.75">View All
+                        <i class="iconify tabler--arrow-right size-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section  -->
+    <section id="services" class="py-22.5">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--brand-react text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Our Services
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">How To Better Into Business</h3>
+                <p class="mb-4 text-secondary text-center">Improving one's business acumen and navigating the
+                    complexities of entrepreneurship require</p>
+            </div>
+
+            <div class="grid lg:grid-cols-4 gap-6">
+
+                <!-- Service Item 1  -->
+                <div class="bg-body-bg rounded-md p-4">
+                    <div class="bg-orange border border-primary rounded-sm size-10 flex justify-center items-center">
+                        <i class="iconify tabler--brand-asana text-primary size-6"></i>
+                    </div>
+                    <h6 class="mt-6 mb-2 text-dark">Project Management</h6>
+                    <p class="mb-4 text-secondary">Planning is a critical phase where project managers develop
+                        detailed
+                        plans</p>
+                    <span class="text-sm text-dark">30 Options Available</span>
+                </div>
+
+                <!-- Service Item 2  -->
+                <div class="bg-body-bg rounded-md p-4">
+                    <div class="bg-orange border border-primary rounded-sm size-10 flex justify-center items-center">
+                        <i class="iconify tabler--pencil-discount text-primary size-6"></i>
+                    </div>
+                    <h6 class="mt-6 mb-2 text-dark">Web & Mobile Development </h6>
+                    <p class="mb-4 text-secondary">Native mobile app development involves creating applications
+                        development</p>
+                    <span class="text-sm text-dark">40 Options Available</span>
+                </div>
+
+                <!-- Service Item 3  -->
+                <div class="bg-body-bg rounded-md p-4">
+                    <div class="bg-orange border border-primary rounded-sm size-10 flex justify-center items-center">
+                        <i class="iconify tabler--24-hours text-primary size-6"></i>
+                    </div>
+                    <h6 class="mt-6 mb-2 text-dark">Customer Support</h6>
+                    <p class="mb-4 text-secondary">We provide best team and 25/7 full services Contact with chat and
+                        call</p>
+                    <span class="text-sm text-dark">4 Options Available</span>
+                </div>
+
+                <!-- Service Item 4  -->
+                <div class="bg-body-bg rounded-md p-4">
+                    <div class="bg-orange border border-primary rounded-sm size-10 flex justify-center items-center">
+                        <i class="iconify tabler--user text-primary size-6"></i>
+                    </div>
+                    <h6 class="mt-6 mb-2 text-dark">Human Resource</h6>
+                    <p class="mb-4 text-secondary">Recruitment involves attracting and identifying qualified candidates
+                    </p>
+                    <span class="text-sm text-dark">22 Options Available</span>
+                </div>
+
+                <!-- Service Item 5  -->
+                <div class="bg-body-bg rounded-md p-4">
+                    <div class="bg-orange border border-primary rounded-sm size-10 flex justify-center items-center">
+                        <i class="iconify tabler--artboard text-primary size-6"></i>
+                    </div>
+                    <h6 class="mt-6 mb-2 text-dark">Design & Creative</h6>
+                    <p class="mb-4 text-secondary">Graphic design involves the creation of visual content to communicate
+                    </p>
+                    <span class="text-sm text-dark">19 Options Available</span>
+                </div>
+
+                <!-- Service Item 6 -->
+                <div class="bg-body-bg rounded-md p-4">
+                    <div class="bg-orange border border-primary rounded-sm size-10 flex justify-center items-center">
+                        <i class="iconify tabler--currency text-primary size-6"></i>
+                    </div>
+                    <h6 class="mt-6 mb-2 text-dark">Marketing & Communication</h6>
+                    <p class="mb-4 text-secondary">Brand management involves creating, maintaining, and enhancing
+                    </p>
+                    <span class="text-sm text-dark">20 Options Available</span>
+                </div>
+
+                <!-- Service Item 7  -->
+                <div class="bg-body-bg rounded-md p-4">
+                    <div class="bg-orange border border-primary rounded-sm size-10 flex justify-center items-center">
+                        <i class="iconify tabler--briefcase text-primary size-6"></i>
+                    </div>
+                    <h6 class="mt-6 mb-2 text-dark">Business Development</h6>
+                    <p class="mb-4 text-secondary">Market research helps identify emerging opportunities, customer.
+                    </p>
+                    <span class="text-sm text-dark">22 Options Available</span>
+                </div>
+
+                <!-- Service Item 8  -->
+                <div class="rounded-md p-6 bg-[url('../images/background/1.png')] bg-primary bg-cover">
+                    <div class="bg-white rounded-sm size-10 flex justify-center items-center">
+                        <h5 class="text-primary font-bold text-xl">+4</h5>
+                    </div>
+                    <h3 class="my-12 text-2.8xl text-white">Show More Card</h3>
+                    <span class="text-white">22 Options Available</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTAs Section  -->
+    <section class="relative bg-center bg-no-repeat bg-[url('../images/cta/1.jpg')] bg-fixed">
+        <div class="absolute inset-0 bg-blue"></div>
+        <div
+            class="relative z-10 flex flex-col items-center justify-center text-center text-white py-22.5 lg:w-7/10 w-9/10 mx-auto">
+            <h3 class="lg:text-2.8xl md:text-2.5xl text-2.3xl text-white mb-6">Join millions of creative people with
+                Skywave</h3>
+            <p class="text-white mb-4">Connect with a vibrant community of innovators and creators who are
+                transforming their ideas into reality with Skywave. Whether you're looking to streamline your
+                projects, personalize your tools</p>
+            <div class="pt-4">
+                <button class="py-3 px-6.25  bg-white text-primary rounded-full border-b-3 border-b-light">Free
+                    Trial
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section  -->
+    <section id="reviews" class="py-22.5">
+        <div class="container">
+            <div class="grid lg:grid-cols-11 grid-cols-1 lg:gap-30 gap-6">
+                <div class="lg:col-span-5 col-span-1">
+                    <div class="mb-6 flex items-center">
+                        <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                            <i class="iconify tabler--message text-white size-4.5 "></i>
+                        </div>
+                        <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                        <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                            Testimonial
+                        </div>
+                    </div>
+                    <h3 class="mb-2 text-2.6xl">From Our Community.</h3>
+                    <p class="mb-4 text-secondary">Here's what other subscribers had to say about Production Online.</p>
+                    <div class="flex mb-4 gap-2.75">
+                        <button onclick="slideTo(0)">
+                            <img src="/assets/1-DHK6cCCz.jpg"
+                                class="size-11 rounded-full border-3 border-white">
+                        </button>
+
+                        <button onclick="slideTo(1)">
+                            <img src="/assets/3-7EmqL268.jpg"
+                                class="size-11 rounded-full border-3 border-white">
+                        </button>
+
+                        <button onclick="slideTo(2)">
+                            <img src="/assets/1-DjMfPOA5.jpg"
+                                class="size-11 rounded-full border-3 border-white">
+                        </button>
+
+                        <button onclick="slideTo(3)">
+                            <img src="/assets/5-Ebh7GFxs.jpg"
+                                class="size-11 rounded-full border-3 border-white">
+                        </button>
+                    </div>
+
+                    <div class="flex gap-1 items-end">
+                        <i class="iconify tabler--star-filled text-yellow size-6"></i>
+                        <h4 class="text-dark text-2xl">4.5</h4>
+                        <p class="text-secondary text-sm">Best Review</p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 col-span-1">
+                    <div
+                        class="relative overflow-hidden bg-white border-primary bg-[url('../images/background/1.png')] border-16 text-center rounded-md lg:w-136.5 md:w-full bg-cover">
+                        <div class="flex transition-transform duration-700 ease-in-out">
+
+                            <!-- Testimonial item 1 -->
+                            <div class="w-full p-4 flex-shrink-0 overflow-hidden">
+                                <div>
+                                    <img src="data:image/png;base64,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" alt="">
+                                    <p class="my-4 text-secondary text-lg text-start">" Production Online has helped me
+                                        become a
+                                        bette musician and producer tha I ever thought possible."
+                                    </p>
+                                    <div class="mt-6 flex gap-4 items-center">
+                                        <div>
+                                            <img src="/assets/1-DHK6cCCz.jpg" alt="" class="rounded-full size-12.5">
+                                        </div>
+                                        <div>
+                                            <p class="text-primary text-start">Danilo Tanic</p>
+                                            <p class="text-dark">Head of Design at Paypal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial item 2 -->
+                            <div class="w-full p-4 flex-shrink-0  overflow-hidden">
+                                <div>
+                                    <img src="data:image/png;base64,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" alt="">
+                                    <p class="my-4 text-secondary text-lg text-start">"Each of team member is getting
+                                        precious help in their professional development and can build a program that".
+                                    </p>
+                                    <div class="mt-6 flex gap-4 items-center">
+                                        <div>
+                                            <img src="/assets/3-7EmqL268.jpg" alt="" class="rounded-full size-12.5">
+                                        </div>
+                                        <div>
+                                            <p class="text-primary text-start">Danilo Tanic</p>
+                                            <p class="text-dark">Head of Design at Paypal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial item 3 -->
+                            <div class="w-full p-4 flex-shrink-0  overflow-hidden">
+                                <div>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAdhAAAHYQGVw7i2AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABEZJREFUeJzt2FmoVlUUwPGfF7Mk8WppaCkOOYSaBZVFBAVRSV6IhksaSbMNZBBGkZFJ+RI9ZCA9ND1EUXQpJBKiNBtvg5WQFjbTpGHmkFOm+PWw9umevs4Xn3pvCO0/bPbZa689nL3XXmufQyaTyWQymUwmk8lkMplMJpPJZDKZ/xuH4RYswxq8jHPqdC7EJtyEJ7AWO/AiRuOM1G4r1qMDI+r66I2rk96aNF57nc5U7EKtIu3AuSXd0XgOW1LqSLIy7+M9TMcKbMNHuKhQGI7PGgx4e6mj+Q10avgFeyrkX6Jvan8E3m3Q/sEmF6CGtqQ3Xix01VyOK/XXqJ+/+ipe7GtcjuNxW3qhPRhVsQCvYSyG4OOS/CEMrZNfnNpflcrrcC1OwHXYnuSnqaYFryedjpL8rSRbijEpLUuyNysWYAeuwUDclWSdxM7MQv/UYCgmpY5rmFm3AD+VdGFBxaBl+dxU7osrMDiVB2Mink56dzRYgLtT/Q9prjA5yTajtaQ7IMlqYiPLCzCnpNc3yba2YKM4x/fiK3G2V+HsknKZJfitVN6T8rfr9Ap5n5TvxGLha1YL812NyxqMAyeJBdgrFm9jkp+e8pfE2S/YnOZX1il4pvS8M+X9egsf0IlhpU6+wzEYVDGptRUy+KOBvGCgWKQJqbwd34tdG1qhf7iwjkNwvzh2BYUl/FjRrpAdWSevnHcLFoqX/wBTUsMT8ULDV9k/7hMv/7mwroGp/EgD/YXC0a3EvLq6whKG+SfDU/5rM5NqwXnpuV2Eib3ijI9vpoN9YGrKrxS7uVuE30kVuhcIR0kcy0sxslT/TsrbhAUVDMC09NzZzKRadK3UVGH214sYfWaS96lotz8U45yFozBD+JoiShTjDMFjpXbteFKE1MeF5awSTrcVz4uINFZYbf9Ut6rZic1WHSM3pPzVpDc/lefXtW9WfomwrkbjfJL0bkjlXSLs3SMc2O9JPjvpjVN9D1if6goKeT1/k9+IT/GzMM+ZYqU/FI6IMK0tOL+uozYR29uakM8QZ3q9iOOz0E/4nzeSTquwwvpb5AhxCx1Yko3Cs+KGuik9j6xrtzylepZjea+KioOBMThVRILdwvw7hQX95wwS4WuBcFo9Sbuwmqoj+UAPj92QyWIXavhCeOSespy5uq7LHVgkdr6GR3tozKaYIpxUsRsrhS/o7oVowbG4WdzyxomIUMOd3TzWPtMHt+ry2jURLufg6APsuxdOxsO67vI18elcHIlTDnCMbmOA+Joqn9W9wpPPE9/rgxu27mKUuBQ9VdHXKyLqLE6yFcI6DioOFT8ZlujyEeW0Tvx4WCrOc4e4U6wUPyXq9b8V/wUmpv6nJ/k21bfFg4pWcaNbJP7AFJeWf0vfiFvcXPHtUc8E4QCnVdR1Gz3lzVuEXxgpjkwRzzektFac9Uwmk8lkMplMJpPJZDKZTCaT+U/5E7vcZR9L82s7AAAAAElFTkSuQmCC" alt="">
+                                    <p class="my-4 text-secondary text-lg text-start">"Growth was implemented within
+                                        minutes and it is now an essential part of our amazing development process".
+                                    </p>
+                                    <div class="mt-6 flex gap-4 items-center">
+                                        <div>
+                                            <img src="/assets/1-DjMfPOA5.jpg" alt="" class="rounded-full size-12.5">
+                                        </div>
+                                        <div>
+                                            <p class="text-primary text-start">Danilo Tanic</p>
+                                            <p class="text-dark">Head of Design at Paypal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial item 4 -->
+                            <div class="w-full p-4 flex-shrink-0  overflow-hidden">
+                                <div>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAdhAAAHYQGVw7i2AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABEZJREFUeJzt2FmoVlUUwPGfF7Mk8WppaCkOOYSaBZVFBAVRSV6IhksaSbMNZBBGkZFJ+RI9ZCA9ND1EUXQpJBKiNBtvg5WQFjbTpGHmkFOm+PWw9umevs4Xn3pvCO0/bPbZa689nL3XXmufQyaTyWQymUwmk8lkMplMJpPJZDKZ/xuH4RYswxq8jHPqdC7EJtyEJ7AWO/AiRuOM1G4r1qMDI+r66I2rk96aNF57nc5U7EKtIu3AuSXd0XgOW1LqSLIy7+M9TMcKbMNHuKhQGI7PGgx4e6mj+Q10avgFeyrkX6Jvan8E3m3Q/sEmF6CGtqQ3Xix01VyOK/XXqJ+/+ipe7GtcjuNxW3qhPRhVsQCvYSyG4OOS/CEMrZNfnNpflcrrcC1OwHXYnuSnqaYFryedjpL8rSRbijEpLUuyNysWYAeuwUDclWSdxM7MQv/UYCgmpY5rmFm3AD+VdGFBxaBl+dxU7osrMDiVB2Mink56dzRYgLtT/Q9prjA5yTajtaQ7IMlqYiPLCzCnpNc3yba2YKM4x/fiK3G2V+HsknKZJfitVN6T8rfr9Ap5n5TvxGLha1YL812NyxqMAyeJBdgrFm9jkp+e8pfE2S/YnOZX1il4pvS8M+X9egsf0IlhpU6+wzEYVDGptRUy+KOBvGCgWKQJqbwd34tdG1qhf7iwjkNwvzh2BYUl/FjRrpAdWSevnHcLFoqX/wBTUsMT8ULDV9k/7hMv/7mwroGp/EgD/YXC0a3EvLq6whKG+SfDU/5rM5NqwXnpuV2Eib3ijI9vpoN9YGrKrxS7uVuE30kVuhcIR0kcy0sxslT/TsrbhAUVDMC09NzZzKRadK3UVGH214sYfWaS96lotz8U45yFozBD+JoiShTjDMFjpXbteFKE1MeF5awSTrcVz4uINFZYbf9Ut6rZic1WHSM3pPzVpDc/lefXtW9WfomwrkbjfJL0bkjlXSLs3SMc2O9JPjvpjVN9D1if6goKeT1/k9+IT/GzMM+ZYqU/FI6IMK0tOL+uozYR29uakM8QZ3q9iOOz0E/4nzeSTquwwvpb5AhxCx1Yko3Cs+KGuik9j6xrtzylepZjea+KioOBMThVRILdwvw7hQX95wwS4WuBcFo9Sbuwmqoj+UAPj92QyWIXavhCeOSespy5uq7LHVgkdr6GR3tozKaYIpxUsRsrhS/o7oVowbG4WdzyxomIUMOd3TzWPtMHt+ry2jURLufg6APsuxdOxsO67vI18elcHIlTDnCMbmOA+Joqn9W9wpPPE9/rgxu27mKUuBQ9VdHXKyLqLE6yFcI6DioOFT8ZlujyEeW0Tvx4WCrOc4e4U6wUPyXq9b8V/wUmpv6nJ/k21bfFg4pWcaNbJP7AFJeWf0vfiFvcXPHtUc8E4QCnVdR1Gz3lzVuEXxgpjkwRzzektFac9Uwmk8lkMplMJpPJZDKZTCaT+U/5E7vcZR9L82s7AAAAAElFTkSuQmCC" alt="">
+                                    <p class="my-4 text-secondary text-lg text-start">"Growth was implemented within
+                                        minutes and it is now an essential part of our amazing development process".
+                                    </p>
+                                    <div class="mt-6 flex gap-4 items-center">
+                                        <div>
+                                            <img src="/assets/5-Ebh7GFxs.jpg" alt="" class="rounded-full size-12.5">
+                                        </div>
+                                        <div>
+                                            <p class="text-primary text-start">Danilo Tanic</p>
+                                            <p class="text-dark">Head of Design at Paypal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section  -->
+    <section id="team" class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--users-group text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Team
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">Our Exceptional Team</h3>
+                <p class="mb-4 text-secondary text-center">At the heart of our success is our exceptional team of
+                    dedicated professionals. Each member brings a wealth of expertise, creativity, and passion to the
+                    table</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-4">
+
+                <!-- Team Item 1  -->
+                <div class="col-span-1 shadow">
+                    <div class="p-4 bg-white rounded-lg">
+                        <div>
+                            <div class="flex justify-between">
+                                <img src="/assets/1-DjMfPOA5.jpg" alt="" class="size-20 rounded-md">
+
+                                <div class="flex gap-1.25">
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-twitter size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-facebook size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-linkedin size-5 text-secondary"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex gap-6">
+                            <a href="#" class="">John A. Raub </a>
+                            <span class="text-secondary">|</span>
+                            <span class="text-secondary">Founder</span>
+                        </div>
+                        <p class="mt-2 text-secondary">I've established pagedone in 2022 and it was one of the best idea
+                            I've had...</p>
+                        <div class="mt-4">
+                            <a href="#" class="underline text-primary flex items-center gap-0.75">View All
+                                <i class="iconify tabler--arrow-right size-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 2  -->
+                <div class="col-span-1 shadow">
+                    <div class="p-4 bg-white rounded-lg">
+                        <div>
+                            <div class="flex justify-between">
+                                <img src="/assets/2-P7zPntQJ.jpg" alt="" class="size-20 rounded-md">
+
+                                <div class="flex gap-1.25">
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-twitter size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-facebook size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-linkedin size-5 text-secondary"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex gap-6">
+                            <a href="#" class="">Nora R. White </a>
+                            <span class="text-secondary">|</span>
+                            <span class="text-secondary">Co-Founder</span>
+                        </div>
+                        <p class="mt-2 text-secondary">The journey has been marked by forging meaningful partnerships...
+                        </p>
+                        <div class="mt-4">
+                            <a href="#" class="underline text-primary flex items-center gap-0.75">View All
+                                <i class="iconify tabler--arrow-right size-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 3  -->
+                <div class="col-span-1 shadow">
+                    <div class="p-4 bg-white rounded-lg">
+                        <div>
+                            <div class="flex justify-between">
+                                <img src="/assets/3-68pzrSOP.jpg" alt="" class="size-20 rounded-md">
+
+                                <div class="flex gap-1.25">
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-twitter size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-facebook size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-linkedin size-5 text-secondary"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex gap-6">
+                            <a href="#" class="">Laura A. Hatton </a>
+                            <span class="text-secondary">|</span>
+                            <span class="text-secondary">Manager</span>
+                        </div>
+                        <p class="mt-2 text-secondary">Every step of the way, we've embraced challenges as
+                            opportunities...</p>
+                        <div class="mt-4">
+                            <a href="#" class="underline text-primary flex items-center gap-0.75">View All
+                                <i class="iconify tabler--arrow-right size-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 4  -->
+                <div class="col-span-1 shadow">
+                    <div class="p-4 bg-white rounded-lg">
+                        <div>
+                            <div class="flex justify-between">
+                                <img src="/assets/3-7EmqL268.jpg" alt="" class="size-20 rounded-md">
+
+                                <div class="flex gap-1.25">
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-twitter size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-facebook size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-linkedin size-5 text-secondary"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex gap-6">
+                            <a href="#" class="">Gary E. Newman </a>
+                            <span class="text-secondary">|</span>
+                            <span class="text-secondary">Sales Lead</span>
+                        </div>
+                        <p class="mt-2 text-secondary">This venture represents not only a leap of faith but also a
+                            profound...</p>
+                        <div class="mt-4">
+                            <a href="#" class="underline text-primary flex items-center gap-0.75">View All
+                                <i class="iconify tabler--arrow-right size-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 5  -->
+                <div class="col-span-1 shadow">
+                    <div class="p-4 bg-white rounded-lg">
+                        <div>
+                            <div class="flex justify-between">
+                                <img src="/assets/5-D6UyqdQQ.jpg" alt="" class="size-20 rounded-md">
+
+                                <div class="flex gap-1.25">
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-twitter size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-facebook size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-linkedin size-5 text-secondary"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex gap-6">
+                            <a href="#" class="">Lorri N. Croft </a>
+                            <span class="text-secondary">|</span>
+                            <span class="text-secondary">Designer</span>
+                        </div>
+                        <p class="mt-2 text-secondary">Effective teams communicate openly, leverage strengths, and...
+                        </p>
+                        <div class="mt-4">
+                            <a href="3" class="underline text-primary flex items-center gap-0.75">View All
+                                <i class="iconify tabler--arrow-right size-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 6  -->
+                <div class="col-span-1 shadow">
+                    <div class="p-4 bg-white rounded-lg">
+                        <div>
+                            <div class="flex justify-between">
+                                <img src="/assets/6-CnPvWjZL.jpg" alt="" class="size-20 rounded-md">
+
+                                <div class="flex gap-1.25">
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-twitter size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-facebook size-5 text-secondary"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="iconify tabler--brand-linkedin size-5 text-secondary"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex gap-6">
+                            <a href="#" class="">Corey J. Comea</a>
+                            <span class="text-secondary">|</span>
+                            <span class="text-secondary">Team Leader</span>
+                        </div>
+                        <p class="mt-2 text-secondary">This venture represents not only a leap of faith but also a
+                            profound...</p>
+                        <div class="mt-4">
+                            <a href="#" class="underline text-primary flex items-center gap-0.75">View All
+                                <i class="iconify tabler--arrow-right size-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section  -->
+    <section id="pricing" class="py-22.5">
+        <div class="container">
+            <div class="container">
+                <div class="mb-12 lg:w-3/5 mx-auto">
+                    <div class="mb-6 flex items-center justify-center">
+                        <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                            <i class="iconify tabler--receipt-2 text-white size-4.5 "></i>
+                        </div>
+                        <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                        <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                            Pricing
+                        </div>
+                    </div>
+                    <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">Save Your Time And Get Your Best
+                        Price Of Our Services</h3>
+                    <p class="mb-4 text-secondary text-center">Dantes remained confused and silent by this explanation
+                        of the thoughts which had unconsciously been working in his mind, or rather soul.</p>
+                </div>
+
+                <div>
+                    <div class="grid lg:grid-cols-3 gap-6 items-end">
+
+                        <!-- Pricing Item 1  -->
+                        <div class="col-span-1">
+                            <div class="border border-body-bg rounded-md shadow p-4">
+                                <h5 class="mb-2 text-primary text-xl">Starter</h5>
+                                <div class="my-6">
+                                    <h2 class="lg:text-3.2xl md:text-2.8xl text-2.3xl text-dark inline">$12.99 </h2>
+                                    <span> / Month</span>
+                                    <div class="py-1 px-1.75 inline border border-bg rounded-md text-green text-xs">20%
+                                        Off</div>
+                                </div>
+                                <p class="text-secondary">Offering a free plan allows companies to showcase the value
+                                    and effectiveness of
+                                    their service.</p>
+                                <hr class="border-primary opacity-50 my-4">
+                                <h6 class="mb-2">Start Up Starter Packs</h6>
+                                <div class="flex gap-4 flex-col mt-6 mb-4">
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Account Aggregation</h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Expense Tracking </h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Budgeting Tools</h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Transaction Insights </h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Basic Security </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button
+                                    class="py-3 px-6.25 bg-primary w-full text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">Get
+                                    Started
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <!-- Pricing Item 2  -->
+                        <div class="col-span-1">
+                            <div class="bg-primary bg-[url('../images/background/1.png')] bg-cover rounded-sm p-1">
+                                <h6 class="text-white text-center py-2 px-4">Top Picks</h6>
+
+                                <div class="border border-body-bg rounded-md shadow bg-white p-4">
+                                    <h5 class="mb-2 text-primary text-xl">Team</h5>
+                                    <div class="my-6">
+                                        <h2 class="lg:text-3.2xl md:text-2.8xl text-2.3xl text-dark inline">$46.99 </h2>
+                                        <span> / Month</span>
+                                        <div class="py-1 px-1.75 inline border border-bg rounded-md text-green text-xs">
+                                            30%
+                                            Off</div>
+                                    </div>
+                                    <p class="text-secondary">We offer a variety of pricing plans designed to suit
+                                        different needs and budgets.</p>
+                                    <hr class="border-primary opacity-50 my-4">
+                                    <h6 class="mb-2">Start Up Starter Packs</h6>
+                                    <div class="flex gap-4 flex-col mt-6 mb-4">
+                                        <div class="gap-1.75 flex">
+                                            <div>
+                                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-secondary"> Everything in Free</h6>
+                                            </div>
+                                        </div>
+                                        <div class="gap-1.75 flex">
+                                            <div>
+                                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-secondary"> Customizable Dashboards </h6>
+                                            </div>
+                                        </div>
+                                        <div class="gap-1.75 flex">
+                                            <div>
+                                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-secondary"> Advanced Budgeting</h6>
+                                            </div>
+                                        </div>
+                                        <div class="gap-1.75 flex">
+                                            <div>
+                                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-secondary"> Investment Tracking </h6>
+                                            </div>
+                                        </div>
+                                        <div class="gap-1.75 flex">
+                                            <div>
+                                                <i class="iconify tabler--circle-check text-green size-4"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-secondary"> Enhanced Security </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button
+                                        class="py-3 px-6.25 bg-primary w-full text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">Get
+                                        Started
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pricing Item 3  -->
+                        <div class="col-span-1">
+                            <div class="border border-body-bg rounded-md shadow p-4">
+                                <h5 class="mb-2 text-primary text-xl">Business</h5>
+                                <div class="my-6">
+                                    <h2 class="lg:text-3.2xl md:text-2.8xl text-2.3xl text-dark inline">$79.99 </h2>
+                                    <span> / Month</span>
+                                    <div class="py-1 px-1.75 inline border border-bg rounded-md text-green text-xs">40%
+                                        Off</div>
+                                </div>
+                                <p>We offer a range of pricing plans tailored to meet the diverse needs of businesses of
+                                    all sizes.
+                                </p>
+                                <hr class="border-primary opacity-50 my-4">
+                                <h6 class="mb-2">Start Up Starter Packs</h6>
+                                <div class="flex gap-4 flex-col mt-6 mb-4">
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Financial Planning Tools</h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Priority Support</h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Budgeting Tools</h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Premium Widgets</h6>
+                                        </div>
+                                    </div>
+                                    <div class="gap-1.75 flex">
+                                        <div>
+                                            <i class="iconify tabler--circle-check text-green size-4"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-secondary"> Advanced Security </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button
+                                    class="py-3 px-6.25  bg-primary w-full text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">Get
+                                    Started
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section  -->
+    <section id="contact" class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--address-book text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Contact
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">
+                    Contact Us</h3>
+                <p class="mb-4 text-secondary text-center">We're here to help! Whether you have questions, need support,
+                    or want to explore how we can collaborate</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-9">
+                <div class="lg:col-span-1">
+                    <div class="flex gap-6 flex-col">
+                        <div class="rounded-md p-4 bg-[url('../images/background/1.png')] bg-primary bg-cover">
+                            <div class="flex gap-3 items-center">
+                                <div class="bg-white rounded-sm size-10 flex justify-center items-center">
+                                    <i class="iconify tabler--phone-call text-primary size-6"></i>
+                                </div>
+                                <p class="text-white">Call Us Directly At</p>
+                            </div>
+
+                            <h5 class="text-xl text-white mb-12 mt-6 ">+ 713-707-2524</h5>
+                            <button
+                                class="py-1.75 px-4.5 w-full bg-white text-primary rounded-full border border-primary border-b-3 border-b-light ">
+                                Contact Us
+                            </button>
+                        </div>
+
+                        <div class="rounded-md p-4 bg-white ">
+                            <div class="flex gap-3 items-center">
+                                <div
+                                    class="rounded-sm size-10 flex justify-center items-center border border-primary bg-body-bg">
+                                    <i class="iconify tabler--mail text-primary size-6"></i>
+                                </div>
+                                <p class="text-secondary">Chat With Our Team</p>
+                            </div>
+
+                            <h5 class="text-xl mb-12 mt-6 ">marshal@rhyta.com</h5>
+                            <button
+                                class="py-1.75 px-4.5 w-full bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">
+                                Contact Us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2">
+                    <h6 class="mb-6">Send Details</h6>
+                    <div class="grid grid-cols-2 gap-6">
+
+                        <!-- name  -->
+                        <div class="col-span-1">
+                            <input name="name" type="text"
+                                class="py-1.5 px-4.5 h-11.25 w-full mb-4 rounded-md border border-bg" placeholder="Name"
+                                required="">
+                        </div>
+
+                        <!-- Email  -->
+                        <div class="col-span-1">
+                            <input name="email" type="text"
+                                class="py-1.5 px-4.5 h-11.25 w-full mb-4 rounded-md border border-bg"
+                                placeholder="Email" required="">
+                        </div>
+                    </div>
+
+                    <!-- Subject  -->
+                    <input name="name" type="text" class="py-1.5 px-4.5 h-11.25 w-full mb-4 rounded-md border border-bg"
+                        placeholder="Subject" required="">
+
+                    <!-- Message  -->
+                    <textarea name="comments" id="comments" rows="8"
+                        class="py-1.5 px-4.5 w-full mb-4 rounded-md border border-bg" required=""
+                        placeholder="Message"></textarea>
+
+                    <button
+                        class="py-3 px-6.25 bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100">Send
+                        Message
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="pt-12 pb-6 bg-dark">
+        <div class="container">
+            <div class="grid lg:grid-cols-11 md:grid-cols-3 lg:gap-4 gap-8 mt-12 justify-between pb-12">
+                <div class="lg:col-span-3 col-span-2">
+                    <a href="preview.html">
+                        <img src="/assets/logo-light-D_27IPVw.png" alt="" class="mb-6 h-7.5">
+                    </a>
+                    <p class="mb-6 text-white text-lg">Comprehensive report, data visualization , and insights to analyze
+                        your business.</p>
+    
+                    <button
+                        class="py-1.75 px-4.5 bg-primary text-sm text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">
+                        Subscribe
+                    </button>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Solution</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Enterprise</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">By Workflow</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">By Team</li>
+                    </ul>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Company</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">About Us</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">News & Press</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Our Customer</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Leadership</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Careers</li>
+                    </ul>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Company</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Blog </li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Webinar & Events</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Podcast</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">E-book & Guides</li>
+                    </ul>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Contact Us</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Contact Sales </li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Become Partner</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Affliate Program</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <hr class="border opacity-10 border-primary my-4">
+    
+            <div class="grid grid-cols-12 gap-6 mt-4 items-center">
+                <div class="col-span-5">
+                    <p class="text-light-100">2025
+                        © Skywave - Design crafted by ❤️ <a href="#" class="text-white">MarkeyThemes</a>
+                    </p>
+                </div>
+    
+                <div class="col-span-4">
+                    <div class="flex gap-2.75 justify-center">
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-facebook text-dark size-4 hover:text-primary"></i>
+                        </a>
+    
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-x text-dark size-4 hover:text-primary"></i>
+                        </a>
+    
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-youtube text-dark size-4 hover:text-primary"></i>
+                        </a>
+    
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-instagram text-dark size-4 hover:text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="col-span-3">
+                    <div class="grid grid-cols-2 gap-6">
+                        <a href="#" class="text-white">Terms Of Us</a>
+                        <a href="#" class="text-white">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

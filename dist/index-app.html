@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8" />
+    <title>Skywave - IT Solution & Technology TailwindCSS 4 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Skywave - IT Solution & Technology TailwindCSS 4 Template" name="description">
+    <meta content="MarkeyThemes" name="author">
+    <link rel="shortcut icon" href="/assets/favicon-CFk9qfOV.ico" />
+
+  <script type="module" crossorigin src="/assets/app-Cg3ZKO-o.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/app-DCLepV3r.css">
+</head>
+
+<body>
+
+    <header class="bg-transparent fixed top-0 w-full z-20 transition-all [.active]:bg-white [.active]:shadow " id="navbar-sticky">
+        <div class="container">
+            <div class="flex items-center lg:justify-start justify-between lg:py-5 py-2.5">
+                <div class="text-lg font-bold">
+                    <a href="preview.html">
+                        <img src="/assets/logo-dark-CrnqOdrd.png" alt="Logo" class="h-7.5">
+                    </a>
+                </div>
+    
+                <div class="lg:flex hidden justify-center ms-auto">
+                    <a href="#home" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Home</a>
+    
+                    <a href="#feature" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Feature</a>
+    
+                    <a href="#services" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Services</a>
+    
+                    <a href="#reviews" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Reviews</a>
+    
+                    <a href="#team" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Team</a>
+    
+                    <a href="#pricing" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Pricing</a>
+                        
+                    <a href="#contact" target="_blank"
+                        class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Contact</a>
+                </div>
+    
+                <div class="flex flex-row justify-center items-center md:gap-4 gap-2.5">
+                    <div class="md:flex hidden justify-end">
+                        <button
+                            class="py-1.75 px-4.5 ms-6 bg-primary text-sm text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">
+                            Create Account
+                        </button>
+                    </div>
+    
+                    <div class="flex lg:hidden">
+                        <button type="button"
+                            class="text-black focus:border-3 inline-flex justify-center items-center focus:rounded-md md:h-9 w-12.5 size-11 p-3.5 font-medium transition-all duration-300"
+                            aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-offcanvas-MobileMenu"
+                            data-hs-overlay="#hs-offcanvas-MobileMenu">
+                            <span class="iconify tabler--menu text-2xl size-6"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu (Offcanvas) -->
+    <div id="hs-offcanvas-MobileMenu"
+        class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-80 bg-white border-e border-gray-200"
+        role="dialog" tabindex="-1" aria-labelledby="hs-offcanvas-MobileMenu-label">
+        <div class="flex justify-center items-center py-3 px-4 border-b border-gray-200">
+            <a href="index.html">
+                <img src="/assets/logo-dark-CrnqOdrd.png" alt="" class="h-7.5">
+            </a>
+        </div>
+    
+        <div class="p-4 overflow-y-scroll h-full">
+            <a href="#home"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Home</a>
+    
+            <a href="#pricing"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Pricing</a>
+    
+            <a href="#services"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Services</a>
+    
+            <a href="#reviews"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Reviews</a>
+    
+            <a href="#team" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Team</a>
+    
+            <a href="#pricing"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Pricing</a>
+    
+            <a href="#contact"
+                class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Contact</a>
+        </div>
+    </div>
+    <!-- Hero Section  -->
+    <section id="home" class="pt-40 bg-[url('../images/hero/6.jpg')] bg-cover bg-center bg-light-200  bg-blend-overlay">
+        <div class="container">
+            <div class="text-center w-7/10 mx-auto">
+                <div class="flex justify-center">
+                    <img src="/assets/sm-phone-C7QJ9DOm.png" alt="" class="mb-6">
+                </div>
+                <h5 class="mb-4 text-primary text-xl">Welcome To Skywave</h5>
+                <h1 class="lg:text-4.1xl md:text-3.3xl text-2.7xl mb-2">Are You Ready For A Revolution In Tech Industry
+                    ?
+                    <span class="text-primary">
+                        Explore Us . </span>
+                </h1>
+                <p class="mb-6 text-secondary">At the heart of every successful tech application lies a fusion of
+                    creativity, functionality, and user-centric design. Whether it's streamlining business processes,
+                    enhancing customer experiences</p>
+
+                <div class="mt-6 flex gap-4 justify-center">
+                    <img src="/assets/apple_store-DUtGPTgp.png" alt="">
+                    <img src="/assets/google-play-BK5l9IEC.png" alt="">
+                </div>
+
+                <div class="mt-12">
+                    <img src="/assets/7-xZ9Nc41-.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About US Section  -->
+    <section class="py-22.5">
+        <div class="container">
+            <div class="grid lg:grid-cols-12 gap-6">
+                <div class="lg:col-span-5">
+                    <div class="mb-6 flex items-center">
+                        <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                            <i class="iconify tabler--download text-white size-4.5 "></i>
+                        </div>
+                        <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                        <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                            Download
+                        </div>
+                    </div>
+                    <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl">Download Our Smart Skywave App Today !
+                    </h3>
+                    <p class="mb-4 text-secondary">Experience the ultimate convenience with the Skywave App, designed to
+                        simplify your life. Whether you're managing tasks, staying organized, or exploring new features
+                    </p>
+                    <div class="grid grid-cols-4 gap-6">
+                        <div class="col-span-2">
+                            <h4 class="mb-2 text-primary text-2xl">5 Million+</h4>
+                            <p class="mb-4 text-secondary">Worldwide Active User</p>
+                        </div>
+                        <div class="col-span-1">
+                            <h4 class="mb-2 text-primary text-2xl">60+</h4>
+                            <p class="mb-4 text-secondary"> Countries</p>
+                        </div>
+                        <div class="col-span-1">
+                            <h4 class="mb-2 text-primary text-2xl">5K+</h4>
+                            <p class="mb-4 text-secondary">Organizers </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="grid lg:grid-cols-2 gap-4">
+                        <div class="col-span-1">
+                            <div class="rounded-md p-4 bg-[url('../images/background/1.png')] bg-primary bg-cover">
+                                <h4 class="text-white text-2xl mb-2">For iOS</h4>
+                                <p class="text-light-100 mb-4">iOS 15.6+</p>
+                                <button
+                                    class="py-1.75 px-4.5 text-sm bg-white text-primary rounded-full border border-primary border-b-3 border-b-light">
+                                    Dowmload App
+                                </button>
+
+                                <div class="mt-6 flex gap-6 justify-between items-center">
+                                    <img src="/assets/qr-Bla9LzT0.png" alt=""
+                                        class="size-20 rounded-md border-3 border-bg">
+                                    <img src="data:image/png;base64,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" alt="" class="size-12.5">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-span-1">
+                            <div class="rounded-md p-4 bg-[url('../images/background/1.png')] bg-primary bg-cover">
+                                <h4 class="text-white text-2xl mb-2">For Android</h4>
+                                <p class="text-light-100 mb-4">Android 8.0+</p>
+                                <button
+                                    class="py-1.75 px-4.5 text-sm bg-white text-primary rounded-full border border-primary border-b-3 border-b-light">
+                                    Dowmload App
+                                </button>
+
+                                <div class="mt-6 flex gap-6 justify-between items-center">
+                                    <img src="/assets/qr-Bla9LzT0.png" alt=""
+                                        class="size-20 rounded-md border-3 border-bg">
+                                    <img src="data:image/png;base64,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" alt="" class="size-12.5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section  -->
+    <section id="feature" class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--key text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Features
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">Features of Our Team of Exceptional
+                    Talent
+                </h3>
+                <p class="mb-4 text-secondary text-center">Their diverse skills and creative approaches ensure that we
+                    consistently deliver outstanding results and push the boundaries of what's possible.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-6">
+
+                <!-- Feature Item 1  -->
+                <div class="col-span-1">
+                    <div class="rounded-md bg-white p-4 text-center">
+                        <h5 class="mb-2 text-xl">Full Exploration Apps</h5>
+                        <p class="mb-4 text-secondary">Unlock endless possibilities with our suite of Full Exploration
+                            Apps.</p>
+                        <div class="justify-center flex">
+                            <img src="/assets/12-DvmJ5amr.png" alt="" class="mt-4">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Item 2  -->
+                <div class="col-span-1">
+                    <div class="rounded-md bg-white p-4 text-center">
+                        <div class="flex justify-center">
+                            <img src="/assets/13-28EluZfa.png" alt="" class="mb-4">
+                        </div>
+                        <h5 class="mb-2 text-xl">Lightweight and Fast</h5>
+                        <p class=" text-secondary">Experience a responsive app that runs smoothly without draining
+                            your...
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature Item 3  -->
+                <div class="col-span-1">
+                    <div class="rounded-md bg-white p-4 text-center">
+                        <h5 class="mb-2 text-xl">Live Chat & Call</h5>
+                        <p class="mb-4 text-secondary">Connect with our support team or other users in time with the
+                            Live Chat feature.
+                        </p>
+                        <div class="justify-center flex">
+                            <img src="/assets/14-CzENGugx.png" alt="" class="mt-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step Section  -->
+    <section class="py-22.5">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--user-plus text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Setup
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">How It Work
+                </h3>
+                <p class="mb-4 text-secondary text-center">Four step to get you up and running</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-4">
+
+                <!-- Step 1  -->
+                <div class="col-span-1">
+                    <div class="border border-bg rounded-md p-4">
+                        <div class="grid lg:grid-cols-3 gap-6 items-center ">
+                            <div class="col-span-2">
+                                <h6 class="text-primary mb-2">Step 1</h6>
+                                <p class="text-dark mb-2 text-1.7xl font-semibold">Download Our Skywave App</p>
+                                <p class="text-secondary">Install Application in your android and apple device</p>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="/assets/2-D3yu1tbC.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2  -->
+                <div class="col-span-1">
+                    <div class="border border-bg rounded-md p-4">
+                        <div class="grid lg:grid-cols-3 gap-6 items-center ">
+                            <div class="col-span-2">
+                                <h6 class="text-primary mb-2">Step 2</h6>
+                                <p class="text-dark mb-2 text-1.7xl font-semibold">Register in your device</p>
+                                <p class="text-secondary">Register your profile and login with google and facebook</p>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="/assets/3-Fv14ytHd.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3  -->
+                <div class="col-span-1">
+                    <div class="border border-bg rounded-md p-4">
+                        <div class="grid lg:grid-cols-3 gap-6 items-center ">
+                            <div class="col-span-2">
+                                <h6 class="text-primary mb-2">Step 3</h6>
+                                <p class="text-dark mb-2 text-1.7xl font-semibold">Submit Online Form</p>
+                                <p class="text-secondary">simplifies the process of providing necessary information</p>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="/assets/4-DNbBDm02.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4  -->
+                <div class="col-span-1">
+                    <div class="border border-bg rounded-md p-4">
+                        <div class="grid lg:grid-cols-3 gap-6 items-center ">
+                            <div class="col-span-2">
+                                <h6 class="text-primary mb-2">Step 4</h6>
+                                <p class="text-dark mb-2 text-1.7xl font-semibold">Enjoy Our Skywave App</p>
+                                <p class="text-secondary">Enjoy to this application and with your best experiences</p>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="/assets/5-KCBLiq2V.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Section  -->
+    <section class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--apps text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        App
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">Showcasing the Unique Capabilities
+                    of Our App
+                </h3>
+                <p class="mb-4 text-secondary text-center">Discover what sets our app apart in the digital landscape.
+                    From intuitive design to powerful functionality, our app is built to enhance your experience</p>
+            </div>
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-12.5">
+                <div class="col-span-1">
+                    <img src="/assets/1-CYVkMOg8.png" alt="" class="rounded-md">
+                </div>
+
+                <div class="col-span-1">
+                    <img src="/assets/2-FfFLKJt8.png" alt="" class="rounded-md">
+                </div>
+
+                <div class="col-span-1">
+                    <img src="/assets/3-DWpZ7Ffj.png" alt="" class="rounded-md">
+                </div>
+
+                <div class="col-span-1">
+                    <img src="/assets/4-CjmEHGAJ.png" alt="" class="rounded-md">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section  -->
+    <section id="team" class="py-22.5 ">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--apps text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Team
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">The Passionate Individuals Leading
+                    Our Mission
+                </h3>
+                <p class="mb-4 text-secondary text-center">Behind every great product is a team of talented individuals.
+                    At Skywave, our team is a blend of creative thinkers
+                </p>
+            </div>
+            <div class="grid lg:grid-cols-4 gap-6">
+
+                <!-- Team Item 1  -->
+                <div class="col-span-1">
+                    <div class="group relative lg:size-65.25 size-full overflow-hidden rounded-lg">
+                        <img src="/assets/7-DaAuoH8z.jpg" alt="Profile"
+                            class="object-cover transition-transform duration-500 lg:size-65.25  size-full" />
+
+                        <div
+                            class="absolute inset-0 bg-light-300  opacity-0 group-hover:opacity-100 transition  duration-500 flex flex-col items-center justify-center text-white text-center px-4">
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-end bottom-1/5 text-white text-center px-4 py-6 translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out">
+
+                                <h5 class="text-1.7xl text-white mb-2 font-bold">Kenneth Simpson</h5>
+                                <p class="text-primary text-sm mb-4">CEO/Founder</p>
+
+                                <div class="flex gap-2.25">
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-facebook size-4 text-white "></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-twitter size-4 text-white"></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-instagram size-4 text-white"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 2  -->
+                <div class="col-span-1">
+                    <div class="group relative lg:size-65.25 size-full overflow-hidden rounded-lg">
+                        <img src="/assets/11-DRue7qoB.jpg" alt="Profile"
+                            class="object-cover transition-transform duration-500 lg:size-65.25 size-full" />
+
+                        <div
+                            class="absolute inset-0 bg-light-300  opacity-0 group-hover:opacity-100 transition  duration-500 flex flex-col items-center justify-center text-white text-center px-4">
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-end bottom-1/5 text-white text-center px-4 py-6 translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out">
+
+                                <h5 class="text-1.7xl mb-2 text-white font-bold">Daniel Malave </h5>
+                                <p class="text-primary text-sm mb-4">Web Devloper</p>
+
+                                <div class="flex gap-2.25">
+                                       <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-facebook size-4 text-white "></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-twitter size-4 text-white"></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-instagram size-4 text-white"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 3  -->
+                <div class="col-span-1">
+                    <div class="group relative lg:size-65.25 size-full overflow-hidden rounded-lg">
+                        <img src="/assets/10-CdjLnk4u.jpg" alt="Profile"
+                            class="object-cover transition-transform duration-500 lg:size-65.25 size-full" />
+
+                        <div
+                            class="absolute inset-0 bg-light-300  opacity-0 group-hover:opacity-100 transition  duration-500 flex flex-col items-center justify-center text-white text-center px-4">
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-end bottom-1/5 text-white text-center px-4 py-6 translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out">
+
+                                <h5 class="text-1.7xl mb-2 text-white font-bold">James Peck</h5>
+                                <p class="text-primary text-sm mb-4">Founder</p>
+
+                                <div class="flex gap-2.25">
+                                        <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-facebook size-4 text-white "></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-twitter size-4 text-white"></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-instagram size-4 text-white"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Item 4  -->
+                <div class="col-span-1">
+                    <div class="group relative lg:size-65.25 size-full overflow-hidden rounded-lg">
+                        <img src="/assets/8-C0whL8dL.jpg" alt="Profile"
+                            class="object-cover transition-transform duration-500 lg:size-65.25 size-full" />
+
+                        <div
+                            class="absolute inset-0 bg-light-300  opacity-0 group-hover:opacity-100 transition  duration-500 flex flex-col items-center justify-center text-white text-center px-4">
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-end bottom-1/5 text-white text-center px-4 py-6 translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out">
+
+                                <h5 class="text-1.7xl mb-2 text-white font-bold">Marc Johnson </h5>
+                                <p class="text-primary text-sm mb-4">Web Designer</p>
+
+                                <div class="flex gap-2.25">
+                                     <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-facebook size-4 text-white "></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-twitter size-4 text-white"></i>
+                                    </a>
+
+                                    <a href="#"
+                                        class="rounded-full border border-white size-10 flex justify-center items-center bg-none hover:bg-primary hover:border-primary transition-all duration-300">
+                                        <i class="iconify tabler--brand-instagram size-4 text-white"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section  -->
+    <section id="pricing" class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--receipt-2 text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Pricing
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">Cost and Subscription Options
+                </h3>
+                <p class="mb-4 text-secondary text-center">Competitive rates and pricing plans to help you find a plan
+                    that fits the needs and budget of your business.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-6">
+
+                <!-- Pricing Item 1  -->
+                <div class="col-span-1">
+                    <div class="rounded-md border-t-4 border-t-dark shadow bg-white">
+                        <div class="p-4">
+                            <div class="bg-dark rounded-md flex justify-center items-center size-10 mb-6">
+                                <i class="iconify tabler--free-rights size-6 text-white"></i>
+                            </div>
+                            <h5 class="mb-2 text-dark text-xl">Personal</h5>
+                            <p class="text-secondary">For individuals who want to securely connect personal devices, for
+                                free.</p>
+                            <div class="my-6">
+                                <div class="mb-1">
+                                    <h2 class="lg:text-3.2xl md:text-2.8xl text-2.3xl text-dark inline">$ 0</h2>
+                                    <span> / Month</span>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="text-primary">3 Month Free</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-1.50 items-center">
+                                <i class="iconify tabler--device-laptop text-primary size-4 "></i>
+                                <p class="text-secondary text-sm"> 1 Devices</p>
+                            </div>
+                        </div>
+
+                        <div class="py-2 px-4 bg-body-bg">
+                            <button
+                                class="py-3 px-6.25 w-full bg-dark text-white rounded-full border-blue border-b-3 border-b-blue-400 hover:bg-blue-500 hover:border-b-blue-600 transition-all duration-300">
+                                Try Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pricing Item 2  -->
+                <div class="col-span-1">
+                    <div class="rounded-md border-t-4 border-t-primary shadow bg-white">
+                        <div class="p-4">
+                            <div class="mb-6 flex gap-6 justify-between items-center">
+                                <div class="bg-primary rounded-md flex justify-center items-center size-10">
+                                    <i class="iconify tabler--tag-starred size-6 text-white"></i>
+                                </div>
+                                <span class="text-xs bg-green-100 rounded-sm py-1 px-1.75 text-green font-bold">Save
+                                    50%</span>
+                            </div>
+                            <h5 class="mb-2 text-primary text-xl">Starter</h5>
+                            <p class="text-secondary">For teams or organizations looking for an easy-to- use, legacy VPN
+                                replacement.
+                            </p>
+                            <div class="my-6">
+                                <div class="mb-1">
+                                    <h2 class="lg:text-3.2xl md:text-2.8xl text-2.3xl text-dark inline">$ 20</h2>
+                                    <span> / Month</span>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="text-primary">+3 Extra month</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-1.50 items-center">
+                                <i class="iconify tabler--device-laptop text-primary size-4 "></i>
+                                <p class="text-secondary text-sm"> Cover 5 Devices</p>
+                            </div>
+                        </div>
+
+                        <div class="py-2 px-4 bg-body-bg">
+                            <button
+                                class="py-3 px-6.25 w-full bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pricing Item 3  -->
+                <div class="col-span-1">
+                    <div class="rounded-md border-t-4 border-t-dark shadow bg-white">
+                        <div class="p-4">
+                            <div class="mb-6 flex gap-6 justify-between items-center">
+                                <div class="bg-dark` rounded-md flex justify-center items-center size-10">
+                                    <i class="iconify tabler--tag-starred size-6 text-white"></i>
+                                </div>
+                                <span class="text-xs bg-green-100 rounded-sm py-1 px-1.75 text-green font-bold">Save
+                                    50%</span>
+                            </div>
+                            <h5 class="mb-2 text-dark text-xl">Premium</h5>
+                            <p class="text-secondary">For companies who need service level authentication and access
+                                control.</p>
+                            <div class="my-6">
+                                <div class="mb-1">
+                                    <h2 class="lg:text-3.2xl md:text-2.8xl text-2.3xl text-dark inline">$ 60</h2>
+                                    <span> / Month</span>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="text-primary">+3 Extra month</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-1.50 items-center">
+                                <i class="iconify tabler--device-laptop text-primary size-4 "></i>
+                                <p class="text-secondary text-sm"> Cover 10 Devices</p>
+                            </div>
+                        </div>
+
+                        <div class="py-2 px-4 bg-body-bg">
+                            <button
+                                class="py-3 px-6.25 w-full bg-dark text-white rounded-full border-blue border-b-3 border-b-blue-400 hover:bg-blue-500 hover:border-b-blue-600 transition-all duration-300">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download App Section  -->
+    <section class="relative bg-center bg-no-repeat bg-[url('../images/background/1.png')] bg-cover bg-primary">
+        <div
+            class="relative z-10 flex items-center justify-between flex-wrap gap-6 text-center text-white py-12 lg:w-7/10 w-9/10 mx-auto">
+            <div class="lg:w-3/5 mx-auto text-center">
+                <h3 class="mb-6 text-2.8xl">Download App Now</h3>
+                <p class="mb-4 text-light-100">It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout.</p>
+                <div class="pt-4 flex gap-4 justify-center flex-wrap">
+                    <button
+                        class="rounded-full border border-white py-3 px-6.25 transition-all duration-300 hover:bg-white hover:text-black">
+                        APP STORE
+                    </button>
+
+                    <button
+                        class="rounded-full border border-white py-3 px-6.25 transition-all duration-300 hover:bg-white hover:text-black">
+                        WINDOWS
+                    </button>
+
+                    <button
+                        class="rounded-full border border-white py-3 px-6.25 transition-all duration-300 hover:bg-white hover:text-black">
+                        GOOGLE PLAY
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section  -->
+    <section id="contact" class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12 lg:w-3/5 mx-auto">
+                <div class="mb-6 flex items-center justify-center">
+                    <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                        <i class="iconify tabler--address-book text-white size-4.5 "></i>
+                    </div>
+                    <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                    <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                        Contact
+                    </div>
+                </div>
+                <h3 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">
+                    Contact Us</h3>
+                <p class="mb-4 text-secondary text-center">We're here to help! Whether you have questions, need support,
+                    or want to explore how we can collaborate</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-9">
+                <div class="lg:col-span-1">
+                    <div class="flex gap-6 flex-col">
+                        <div class="rounded-md p-4 bg-[url('../images/background/1.png')] bg-primary bg-cover">
+                            <div class="flex gap-3 items-center">
+                                <div class="bg-white rounded-sm size-10 flex justify-center items-center">
+                                    <i class="iconify tabler--phone-call text-primary size-6"></i>
+                                </div>
+                                <p class="text-white">Call Us Directly At</p>
+                            </div>
+
+                            <h5 class="text-xl text-white mb-12 mt-6 ">+ 713-707-2524</h5>
+                            <button
+                                class="py-1.75 px-4.5 w-full bg-white text-primary rounded-full border border-primary border-b-3 border-b-light">
+                                Contact Us
+                            </button>
+                        </div>
+
+                        <div class="rounded-md p-4 bg-white ">
+                            <div class="flex gap-3 items-center">
+                                <div
+                                    class="rounded-sm size-10 flex justify-center items-center border border-primary bg-body-bg">
+                                    <i class="iconify tabler--mail text-primary size-6"></i>
+                                </div>
+                                <p class="text-secondary">Chat With Our Team</p>
+                            </div>
+
+                            <h5 class="text-xl mb-12 mt-6 ">marshal@rhyta.com</h5>
+                            <button
+                                class="py-1.75 px-4.5 w-full bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">
+                                Contact Us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2">
+                    <h6 class="mb-6">Send Details</h6>
+                    <div class="grid grid-cols-2 gap-6">
+                        <!-- Name  -->
+                        <div class="col-span-1">
+                            <input name="name" type="text"
+                                class="py-1.5 px-4.5 h-11.25 w-full mb-4 rounded-md border border-bg" placeholder="Name"
+                                required="">
+                        </div>
+
+                        <!-- Email  -->
+                        <div class="col-span-1">
+                            <input name="name" type="text"
+                                class="py-1.5 px-4.5 h-11.25 w-full mb-4 rounded-md border border-bg"
+                                placeholder="Email" required="">
+                        </div>
+                    </div>
+
+                    <!-- Subject  -->
+                    <input name="name" type="text" class="py-1.5 px-4.5 h-11.25 w-full mb-4 rounded-md border border-bg"
+                        placeholder="Subject" required="">
+
+                    <!-- Message  -->
+                    <textarea name="comments" id="comments" rows="8"
+                        class="py-1.5 px-4.5 w-full mb-4 rounded-md border border-bg" required=""
+                        placeholder="Message"></textarea>
+
+                    <button
+                        class="py-3 px-6.25 bg-primary text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">Send
+                        Message
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-12 pb-6 bg-dark">
+        <div class="container">
+            <div class="grid lg:grid-cols-11 md:grid-cols-3 lg:gap-4 gap-8 mt-12 justify-between pb-12">
+                <div class="lg:col-span-3 col-span-2">
+                    <a href="preview.html">
+                        <img src="/assets/logo-light-D_27IPVw.png" alt="" class="mb-6 h-7.5">
+                    </a>
+                    <p class="mb-6 text-white text-lg">Comprehensive report, data visualization , and insights to analyze
+                        your business.</p>
+    
+                    <button
+                        class="py-1.75 px-4.5 bg-primary text-sm text-white rounded-full border border-primary border-b-3 border-b-orange-100 hover:bg-orange-200 hover:border-b-orange-300 transition-all duration-300">
+                        Subscribe
+                    </button>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Solution</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Enterprise</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">By Workflow</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">By Team</li>
+                    </ul>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Company</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">About Us</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">News & Press</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Our Customer</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Leadership</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Careers</li>
+                    </ul>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Company</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Blog </li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Webinar & Events</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Podcast</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">E-book & Guides</li>
+                    </ul>
+                </div>
+    
+                <div class="lg:col-span-2 col-span-1">
+                    <h5 class="mb-2 text-white text-xl">Contact Us</h5>
+                    <ul class="mt-6 mb-4 ">
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Contact Sales </li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Become Partner</li>
+    
+                        <li class="mb-4 text-light-400 hover:text-primary transition-all duration-300">Affliate Program</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <hr class="border opacity-10 border-primary my-4">
+    
+            <div class="grid grid-cols-12 gap-6 mt-4 items-center">
+                <div class="col-span-5">
+                    <p class="text-light-100">2025
+                        © Skywave - Design crafted by ❤️ <a href="#" class="text-white">MarkeyThemes</a>
+                    </p>
+                </div>
+    
+                <div class="col-span-4">
+                    <div class="flex gap-2.75 justify-center">
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-facebook text-dark size-4 hover:text-primary"></i>
+                        </a>
+    
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-x text-dark size-4 hover:text-primary"></i>
+                        </a>
+    
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-youtube text-dark size-4 hover:text-primary"></i>
+                        </a>
+    
+                        <a href="#" class="size-10 flex justify-center items-center bg-white rounded-full">
+                            <i class="iconify tabler--brand-instagram text-dark size-4 hover:text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="col-span-3">
+                    <div class="grid grid-cols-2 gap-6">
+                        <a href="#" class="text-white">Terms Of Us</a>
+                        <a href="#" class="text-white">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
