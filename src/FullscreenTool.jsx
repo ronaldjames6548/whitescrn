@@ -348,7 +348,7 @@ export default function FullscreenTool() {
                   setSelectedColor(color);
                 }}
               >
-                <div className="w-14 h-14 rounded border" style={{ backgroundColor: color.hex }}></div>
+                <div className="w-14 h-14 rounded border border-gray-300" style={{ backgroundColor: color.hex }}></div>
                 <p className="mt-1 text-sm">{color.name}</p>
               </div>
             ))}
