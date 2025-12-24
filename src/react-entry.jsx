@@ -19,11 +19,11 @@ if (container) {
 }
 
 // Find the container element
-const container = document.getElementById('customscreen-tool-container');
+const custom = document.getElementById('customscreen-tool-container');
 
 // If the container exists, render the React component
-if (container) {
-  const root = ReactDOM.createRoot(container);
+if (custom) {
+  const root = ReactDOM.createRoot(custom);
   root.render(
     <React.StrictMode>
       <CustomScreen />
