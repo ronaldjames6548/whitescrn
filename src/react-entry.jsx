@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import FullscreenTool from './FullscreenTool.jsx'; 
+import FullscreenTool from './CustomScreen.jsx'; 
 
 
 // Find the container element
