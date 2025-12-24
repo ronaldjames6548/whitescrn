@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import FullscreenTool from './FullscreenTool.jsx'; 
-import FullscreenTool from './CustomScreen.jsx'; 
+import CustomScreen from './CustomScreen.jsx'; 
 
 
 // Find the container element
@@ -14,8 +14,19 @@ if (container) {
   root.render(
     <React.StrictMode>
       <FullscreenTool />
-      <CustomScreen />
+    </React.StrictMode>
+  );
+}
 
+// Find the container element
+const container = document.getElementById('customscreen-tool-container');
+
+// If the container exists, render the React component
+if (container) {
+  const root = ReactDOM.createRoot(container);
+  root.render(
+    <React.StrictMode>
+      <CustomScreen />
     </React.StrictMode>
   );
 }
