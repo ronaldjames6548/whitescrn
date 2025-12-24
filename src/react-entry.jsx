@@ -14,7 +14,8 @@ if (container) {
   root.render(
     <React.StrictMode>
       <FullscreenTool />
+      <CustomScreen />
+
     </React.StrictMode>
   );
 }
-
