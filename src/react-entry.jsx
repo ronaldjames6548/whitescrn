@@ -33,7 +33,7 @@ if (custom) {
 }
 
 // Find the container element
-const custom = document.getElementById('colorpalette');
+const colorpalette = document.getElementById('colorpalette');
 
 // If the container exists, render the React component
 if (colorpalette) {
