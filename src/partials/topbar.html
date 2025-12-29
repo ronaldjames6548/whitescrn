@@ -1,46 +1,39 @@
 <header class="bg-transparent fixed top-0 w-full z-20 transition-all [.active]:bg-white [.active]:shadow {{class}}" id="navbar-sticky">
     <div class="container">
-        <div class="flex items-center lg:justify-start justify-between lg:py-5 py-2.5">
-            <div class="text-lg font-bold">
-                <a href="/">
-                    <img src="assets/images/logo/logo.svg" alt="Logo" class="h-7.5"> WhiteScrn
-                </a>
+        <div class="flex items-center justify-between lg:py-5 py-2.5">
+            <!-- Logo + Brand Name -->
+            <a href="/" class="flex items-center gap-3">
+                <img 
+                    src="assets/images/logo/logo.svg" 
+                    alt="WhiteScrn Logo" 
+                    class="h-7.5 w-auto"
+                >
+                <span class="text-lg font-bold text-dark">WhiteScrn</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="lg:flex hidden items-center justify-center ms-auto gap-x-7">
+                <a href="#home" class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300">Home</a>
+                <a href="#feature" class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300">Feature</a>
+                <a href="#services" class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300">Services</a>
+                <a href="#reviews" class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300">Reviews</a>
+                <a href="#team" class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300">Team</a>
+                <a href="#pricing" class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300">Pricing</a>
+                <a href="#contact" class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300">Contact</a>
             </div>
 
-            <div class="lg:flex hidden justify-center ms-auto">
-                <a href="#home" target="_blank"
-                    class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Home</a>
-
-                <a href="#feature" target="_blank"
-                    class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Feature</a>
-
-                <a href="#services" target="_blank"
-                    class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Services</a>
-
-                <a href="#reviews" target="_blank"
-                    class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Reviews</a>
-
-                <a href="#team" target="_blank"
-                    class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Team</a>
-
-                <a href="#pricing" target="_blank"
-                    class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Pricing</a>
-                    
-                <a href="#contact" target="_blank"
-                    class="inline-flex items-center font-medium text-dark hover:text-primary transition-all duration-300 mx-3.75 py-1.5">Contact</a>
-            </div>
-
-            <div class="flex flex-row justify-center items-center md:gap-4 gap-2.5">
-                
-
-                <div class="flex lg:hidden">
-                    <button type="button"
-                        class="text-black focus:border-3 inline-flex justify-center items-center focus:rounded-md md:h-9 w-12.5 size-11 p-3.5 font-medium transition-all duration-300"
-                        aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-offcanvas-MobileMenu"
-                        data-hs-overlay="#hs-offcanvas-MobileMenu">
-                        <span class="iconify tabler--menu text-2xl size-6"></span>
-                    </button>
-                </div>
+            <!-- Mobile Menu Button -->
+            <div class="flex items-center lg:hidden">
+                <button 
+                    type="button"
+                    class="text-black focus:border-3 inline-flex justify-center items-center focus:rounded-md md:h-9 w-12.5 size-11 p-3.5 font-medium transition-all duration-300"
+                    aria-haspopup="dialog" 
+                    aria-expanded="false" 
+                    aria-controls="hs-offcanvas-MobileMenu"
+                    data-hs-overlay="#hs-offcanvas-MobileMenu"
+                >
+                    <span class="iconify tabler--menu text-2xl size-6"></span>
+                </button>
             </div>
         </div>
     </div>
@@ -51,30 +44,18 @@
     class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-80 bg-white border-e border-gray-200"
     role="dialog" tabindex="-1" aria-labelledby="hs-offcanvas-MobileMenu-label">
     <div class="flex justify-center items-center py-3 px-4 border-b border-gray-200">
-        <a href="index.html">
-            <img src="assets/images/logo/logo-dark.png" alt="" class="h-7.5">
+        <a href="/" class="flex items-center gap-3">
+            <img src="assets/images/logo/logo-dark.png" alt="WhiteScrn Logo" class="h-7.5 w-auto">
+            <span class="text-lg font-bold text-dark">WhiteScrn</span>
         </a>
     </div>
-
     <div class="p-4 overflow-y-scroll h-full">
-        <a href="#home"
-            class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Home</a>
-
-        <a href="#pricing"
-            class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Pricing</a>
-
-        <a href="#services"
-            class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Services</a>
-
-        <a href="#reviews"
-            class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Reviews</a>
-
+        <a href="#home" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Home</a>
+        <a href="#feature" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Feature</a>
+        <a href="#services" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Services</a>
+        <a href="#reviews" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Reviews</a>
         <a href="#team" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Team</a>
-
-        <a href="#pricing"
-            class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Pricing</a>
-
-        <a href="#contact"
-            class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Contact</a>
+        <a href="#pricing" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Pricing</a>
+        <a href="#contact" class="text-dark text-base flex items-center py-2.5 font-medium hover:underline">Contact</a>
     </div>
 </div>
