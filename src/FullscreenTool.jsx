@@ -215,6 +215,7 @@ export default function FullscreenTool() {
                       className="input input-bordered w-full h-9 min-h-9 text-sm text-center border border-gray-300 rounded"
                       min="1"
                       max="7680"
+					  aria-label="Width in pixels"
                     />
                   </div>
                   <button
@@ -235,6 +236,7 @@ export default function FullscreenTool() {
                       className="input input-bordered w-full h-9 min-h-9 text-sm text-center border border-gray-300 rounded"
                       min="1"
                       max="4320"
+					  aria-label="Height in pixels"
                     />
                   </div>
                 </div>
@@ -256,6 +258,7 @@ export default function FullscreenTool() {
                   className="select select-bordered w-full h-9 min-h-9 border border-gray-300 rounded"
                   onChange={handleResolutionChange}
                   value={selectedResolution}
+					aria-labelledby="Screen resolution"
                 >
                   <optgroup label="Standard">
                     <option value="480p">480p (640×480)</option>
@@ -361,6 +364,7 @@ export default function FullscreenTool() {
                   setUseCustom(true);
                 }}
                 className="w-14 h-14 cursor-pointer"
+				aria-label="Custom color"
               />
               <p className="mt-1 text-sm">Custom</p>
             </div>
