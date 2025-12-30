@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import "../../react-entry.jsx"; 
 AOS.init();
 
+
 // Function to handle navbar stickiness
 function windowScroll() {
     const navbar = document.getElementById("navbar-sticky");
