@@ -1,163 +1,319 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+{{> main }}
+
 <head>
     {{> title-meta}}
+
     {{> head-css}}
 </head>
+
 <body>
+
     {{> topbar }}
 
-    <!-- Header / Hero Section -->
-    <header id="home" class="pt-30 bg-[url('')] bg-cover bg-center bg-light-200 bg-blend-overlay">
+    <!-- Hero Section  -->
+    <section id="home" class="pt-30 bg-[url('')] bg-cover bg-center bg-light-200  bg-blend-overlay">
         <div class="container">
             <div class="text-center mx-auto">
-                <h1 class="lg:text-4.1xl md:text-3.3xl text-2.7xl mb-2">
-                    White Screen - Online <span class="text-primary">Full Screen</span> Test Tool
-                </h1>
-                <p class="mb-6 text-center text-secondary">
-                    <strong>WhiteScrn.com</strong>, Online Fullscreen Test Tool for Cleaning, Zoom & Focus
-                </p>
-                <div id="fullscreen-tool-container" class="my-8"></div>
+                <h1 class="lg:text-4.1xl md:text-3.3xl text-2.7xl mb-2">White Screen - Online <span class="text-primary"> Full Screen </span> Test Tool</h1>
+                  <p class="mb-6 text-center text-secondary"><strong>WhiteScrn.com</strong>, Online Fullscreen Test Tool for Cleaning, Zoom & Focus</p>
+                   <div id="fullscreen-tool-container"></div> 
                 
-                <!-- Optional buttons can go here if needed -->
-                <div class="mt-6 flex gap-4 justify-center"></div>
+              <div class="mt-6 flex gap-4 justify-center"></div>
+
+                <div class="mt-12">
+                </div>
             </div>
         </div>
-    </header>
-
-    <!-- Main Content -->
+    </section>
+     
+    
     <main>
-        <!-- Features / About Section -->
-        <section class="py-22.5" aria-labelledby="features-heading">
-            <div class="container">
-                <div class="grid lg:grid-cols-3 gap-6">
-                    <div class="lg:col-span-1">
-                        <div class="mb-6 flex items-center">
-                            <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
-                                <i class="iconify tabler--info-circle text-white size-4.5"></i>
-                            </div>
-                            <i class="iconify tabler--line-dashed text-primary size-5"></i>
-                            <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
-                                White Screen
-                            </div>
+ <!-- Features Section  -->
+    <section class="py-22.5">
+        <div class="container">
+            <div class="grid lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-1">
+                    <div class="mb-6 flex items-center">
+                        <div class="size-7.5 bg-primary rounded-md flex justify-center items-center">
+                            <i class="iconify tabler--info-circle text-white size-4.5 "></i>
                         </div>
-                        <h2 id="features-heading" class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl">
-                            White Screen Test | Full-Screen Blank Display
-                        </h2>
-                        <p class="text-secondary">
-                            Try Amazing Platform, White Screen Test tool to check dead or stuck pixels on the screen. 
-                            Clean your screen by using this white screen application.
-                        </p>
-                        <p class="text-secondary">
-                            <strong>WhiteScrn.com</strong>, a white screen tool is designed to do one thing perfectly: 
-                            turn your entire device display into a bright, uniform and completely white surface. 
-                            To access this tool, simply search 
-                            <a href="/white-screen-test.html" class="text-primary">White Screen Test</a> and 
-                            <a href="/white-screen.html" class="text-primary">White Screen</a>
-                            and find the clean, distraction-free and fullscreen experience with no ads or unnecessary clutter.
-                        </p>
+                        <i class="iconify tabler--line-dashed text-primary size-5"></i>
+                        <div class="py-2 px-4 bg-body-bg text-primary border rounded-md text-sm border-bg">
+                            White Screen
+                        </div>
                     </div>
 
-                    <div class="lg:col-span-2">
-                        <div class="grid lg:grid-cols-2 gap-4">
-                            <!-- Feature 1 -->
-                            <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-sm rounded-bl-sm rounded-br-4xl">
-                                <div class="mb-4 flex gap-4 items-center">
-                                    <div class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
-                                        <i class="iconify tabler--brand-codepen text-primary size-6"></i>
-                                    </div>
-                                    <p class="text-lg">Test Dead or Stuck Pixels</p>
-                                </div>
-                                <p class="text-secondary">
-                                    Dead pixels appear as tiny black dots and are most visible on a full white background. 
-                                    That's why a white screen is the essential first step when checking a new monitor or diagnosing screen issues.
-                                </p>
-                            </div>
+                    <h2 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl">White Screen Test | Full-Screen Blank Display</h2>
+                    <p class="text-secondary">Try Amazing Platform, White Screen Test tool to check dead or stuck pixels on the screen. Clean your screen by using this white screen application.</p>
+                    <p class="text-secondary"><strong>WhiteScrn.com</strong>, a white screen tool is designed to do one thing perfectly: 
+                    turn your entire device display into a bright, uniform and completely white surface. 
+                    To access this tool, simply search <a href="/white-screen-test.html" class="text-primary">White Screen Test</a> and <a href="/white-screen.html" class="text-primary">White Screen</a> 
+                    and find the clean, distraction-free and fullscreen experience with no ads or unnecessary clutter.</p>
+                </div>
 
-                            <!-- Feature 2 -->
-                            <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-sm rounded-bl-4xl rounded-br-sm">
-                                <div class="mb-4 flex gap-4 items-center">
-                                    <div class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
-                                        <i class="iconify tabler--hours-24 text-primary size-6"></i>
-                                    </div>
-                                    <p class="text-lg">Screen Cleaning Assistant</p>
-                                </div>
-                                <p class="text-secondary">
-                                    A bright white screen helps clean your monitor by illuminating dust, fingerprints and smudges for easy spotting. 
-                                    For best results, alternate white and black screens.
-                                </p>
-                            </div>
+                <div class="lg:col-span-2">
+                    <div class="grid lg:grid-cols-2 gap-4 ">
 
-                            <!-- Feature 3 -->
-                            <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-4xl rounded-bl-sm rounded-br-sm">
-                                <div class="mb-4 flex gap-4 items-center">
-                                    <div class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
-                                        <i class="iconify tabler--device-desktop text-primary size-6"></i>
-                                    </div>
-                                    <p class="text-lg">Reading Light in the Dark</p>
+                        <!-- About Item 1  -->
+                        <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-sm rounded-bl-sm rounded-br-4xl">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--brand-codepen text-primary size-6"></i>
                                 </div>
-                                <p class="text-secondary">
-                                    White screen on your device makes a soft, non-disturbing reading light for nighttime books. 
-                                    Adjust brightness low and illuminate pages easily.
-                                </p>
+                                <p class="text-lg">Test Dead or Stuck Pixels</p>
                             </div>
+                            <p class="text-secondary">Dead pixels appear as tiny black dots and are most visible on a full white background. That's why a white screen is the essential first step when checking a new monitor or diagnosing screen issues.</p>
+                        </div>
 
-                            <!-- Feature 4 -->
-                            <div class="p-4 bg-body-bg rounded-tl-4xl rounded-tr-sm rounded-bl-sm rounded-br-sm">
-                                <div class="mb-4 flex gap-4 items-center">
-                                    <div class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
-                                        <i class="iconify tabler--file-description text-primary size-6"></i>
-                                    </div>
-                                    <p class="text-lg">Improving Video Call Lighting</p>
+                        <!-- About Item 2  -->
+                        <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-sm rounded-bl-4xl rounded-br-sm">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--hours-24 text-primary size-6"></i>
                                 </div>
-                                <p class="text-secondary">
-                                    A white screen acts as a makeshift ring light. Position your monitor for soft, even light that brightens your face during Zoom/Teams calls.
-                                </p>
+                                <p class="text-lg">Screen Cleaning Assistant</p>
                             </div>
+                            <p class="text-secondary">A bright white screen helps clean your monitor by illuminating dust, fingerprints and smudges for easy spotting. As Whitescrn.com notes, it enables thorough cleaning. For best results, alternate white and black screens.</p>
+                        </div>
+
+                        <!-- About Item 3 -->
+                        <div class="p-4 bg-body-bg rounded-tl-sm rounded-tr-4xl rounded-bl-sm rounded-br-sm">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--device-desktop text-primary size-6"></i>
+                                </div>
+                                <p class="text-lg">Reading Light in the Dark</p>
+                            </div>
+                            <p class="text-secondary">White screen on your device makes a soft, non-disturbing reading light for nighttime books. Adjust brightness low and illuminate pages easily.</p>
+                        </div>
+
+                        <!-- About Item 4  -->
+                        <div class="p-4 bg-body-bg rounded-tl-4xl rounded-tr-sm rounded-bl-sm rounded-br-sm">
+                            <div class="mb-4 flex gap-4 items-center">
+                                <div
+                                    class="size-10 flex justify-center items-center border border-primary rounded-md bg-orange">
+                                    <i class="iconify tabler--file-description text-primary size-6"></i>
+                                </div>
+                                <p class="text-lg">Improving Video Call Lighting</p>
+                            </div>
+                            <p class="text-secondary">Poor lighting hurts video calls. A white screen acts as a makeshift ring light. As a Zoom Lighting Whitescrn.com suggests positioning your monitor for soft, even light that brightens for better Zoom/Teams appearance.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+<!-- Test List Section  -->
+
+<!-- Services Section  -->
+    <section class="py-22.5 bg-body-bg">
+        <div class="container">
+            <div class="mb-12 mx-auto">
+                <div class="mb-12 mx-auto">
+                    <h2 class="mb-2 lg:text-2.8xl md:text-2.5xl text-2.3xl text-center">How White Screen - Full Screen Tool Works</h2>
+                      <p class="mb-6 text-center text-secondary">Discover WhiteScrn free, browser-based professional display Testing tools to thoroughly test your monitor or TV. 
+                          Adjust and verify brightness, contrast, sharpness, color accuracy, dead/stuck pixels, backlight bleed, motion clarity, response time and refresh rate – no downloads
+                          or installation required. Perfect for gamers, designers and anyone ensuring optimal display performance on any device.
+
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-4">
+
+                <!-- Services Item 1  -->
+                <div class="col-span-1">
+                    <div class="bg-white rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--device-desktop-analytics  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Custom Software Development</h6>
+                            <p class="text-secondary mt-2 mb-4">We understand that every business has unique needs. Our
+                                team
+                                can create custom software solutions tailored specifically</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Item 2  -->
+                <div class="col-span-1">
+                    <div class="rounded-md p-4 bg-[url('../images/background/1.png')] bg-primary bg-cover">
+                        <div class=" text-center">
+                            <i class="iconify tabler--webhook  text-white size-10 mb-4"></i>
+
+                            <h6 class="text-white mb-2">Integration Services</h6>
+                            <p class="text-light-100 mt-2 mb-4">Our software seamlessly integrates with a variety of
+                                platforms and tools. We provide integration services to ensure</p>
+                            <a href="#" class="text-white">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Item 3  -->
+                <div class="col-span-1">
+                    <div class="bg-white rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--heart-handshake  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Training and Onboarding</h6>
+                            <p class="text-secondary mt-2 mb-4">We offer thorough training programs and onboarding
+                                sessions to help your team get up to speed with our software quickly</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Item 4  -->
+                <div class="col-span-1">
+                    <div class="bg-white rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--message-user  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Consulting Services</h6>
+                            <p class="text-secondary mt-2 mb-4">Our experts provide strategic consulting to help you
+                                leverage our software for maximum benefit. We offer insights</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Item 5  -->
+                <div class="col-span-1">
+                    <div class="bg-white rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--refresh-dot  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Updates and Maintenance</h6>
+                            <p class="text-secondary mt-2 mb-4">We continually update our software to incorporate the
+                                latest advancements and features. Our maintenance services</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Item 6 -->
+                <div class="col-span-1">
+                    <div class="bg-white rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--headset  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Technical Support</h6>
+                            <p class="text-secondary mt-2 mb-4">Our dedicated support team is available 24/7 to assist
+                                you with any technical issues you may encounter.</p>
+                            <a href="#" class="text-primary">View More</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- How It Works / Services Section -->
-        <section class="py-22.5 bg-body-bg" aria-labelledby="how-it-works">
-            <div class="container">
-                <div class="mb-12 text-center max-w-4xl mx-auto">
-                    <h2 id="how-it-works" class="mb-4 lg:text-2.8xl md:text-2.5xl text-2.3xl">
-                        How White Screen - Full Screen Tool Works
-                    </h2>
-                    <p class="text-secondary">
-                        Discover WhiteScrn free, browser-based professional display testing tools to thoroughly test your monitor or TV. 
-                        Adjust and verify brightness, contrast, sharpness, color accuracy, dead/stuck pixels, backlight bleed, motion clarity, 
-                        response time and refresh rate – no downloads or installation required. 
-                        Perfect for gamers, designers and anyone ensuring optimal display performance on any device.
-                    </p>
+<!-- Section 1 End -->
+    
+<section class="py-16 px-4 sm:px-6 lg:px-8">
+    <div class="container">
+       <div class="grid lg:grid-cols-3 gap-4">
+
+                <!-- Services Item 1  -->
+                <div class="col-span-1">
+                    <div class="bg-body-bg rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--device-desktop-analytics  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Custom Software Development</h6>
+                            <p class="text-secondary mt-2 mb-4">We understand that every business has unique needs. Our
+                                team
+                                can create custom software solutions tailored specifically</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-                    <!-- Replace these placeholder cards with actual tool features -->
-                    <div class="bg-white rounded-md p-6 text-center shadow-sm">
-                        <i class="iconify tabler--brightness text-primary size-12 mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Brightness Test</h3>
-                        <p class="text-secondary">Check uniformity and backlight bleed</p>
+                <!-- Services Item 2  -->
+                <div class="col-span-1">
+                    <div class="rounded-md p-4 bg-[url('../images/background/1.png')] bg-primary bg-cover">
+                        <div class=" text-center">
+                            <i class="iconify tabler--webhook  text-white size-10 mb-4"></i>
+
+                            <h6 class="text-white mb-2">Integration Services</h6>
+                            <p class="text-light-100 mt-2 mb-4">Our software seamlessly integrates with a variety of
+                                platforms and tools. We provide integration services to ensure</p>
+                            <a href="#" class="text-white">View More</a>
+                        </div>
                     </div>
-                    <div class="bg-white rounded-md p-6 text-center shadow-sm">
-                        <i class="iconify tabler--palette text-primary size-12 mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Color Accuracy</h3>
-                        <p class="text-secondary">Test primary colors and gradients</p>
+                </div>
+
+                <!-- Services Item 3  -->
+                <div class="col-span-1">
+                    <div class="bg-body-bg rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--heart-handshake  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Training and Onboarding</h6>
+                            <p class="text-secondary mt-2 mb-4">We offer thorough training programs and onboarding
+                                sessions to help your team get up to speed with our software quickly</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
                     </div>
-                    <div class="bg-white rounded-md p-6 text-center shadow-sm">
-                        <i class="iconify tabler--bug text-primary size-12 mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Dead Pixel Detection</h3>
-                        <p class="text-secondary">Solid colors to spot stuck or dead pixels</p>
+                </div>
+
+                <!-- Services Item 4  -->
+                <div class="col-span-1">
+                    <div class="bg-body-bg rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--message-user  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Consulting Services</h6>
+                            <p class="text-secondary mt-2 mb-4">Our experts provide strategic consulting to help you
+                                leverage our software for maximum benefit. We offer insights</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
                     </div>
-                    <!-- Add more relevant cards as needed -->
+                </div>
+
+                <!-- Services Item 5  -->
+                <div class="col-span-1">
+                    <div class="bg-body-bg rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--refresh-dot  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Updates and Maintenance</h6>
+                            <p class="text-secondary mt-2 mb-4">We continually update our software to incorporate the
+                                latest advancements and features. Our maintenance services</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Item 6 -->
+                <div class="col-span-1">
+                    <div class="bg-body-bg rounded-md p-4">
+                        <div class=" text-center">
+                            <i class="iconify tabler--headset  text-primary size-10 mb-4"></i>
+
+                            <h6 class="text-dark mb-2">Technical Support</h6>
+                            <p class="text-secondary mt-2 mb-4">Our dedicated support team is available 24/7 to assist
+                                you with any technical issues you may encounter.</p>
+                            <a href="#" class="text-primary">View More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+ </div>
+
+    </section>
+    
+ 
     </main>
-
     {{> footer }}
+
+
 </body>
+
 </html>
